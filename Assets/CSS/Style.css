@@ -55,7 +55,7 @@ header {
     color: darkslategrey;
     text-align: center;
     padding: 35px 16px;
-    text-decoration: none
+    text-decoration: none;
     font-size: 17px;
   }
   
@@ -242,3 +242,235 @@ header {
     border-block-start-color: palevioletred;
     border-block-start-width: thick;
   }
+
+
+
+  /*Media Queries*/
+
+
+/*Standard Media Queries for About, Portfolio and Contact for the header*/
+@media screen and (max-width: 980px) {
+
+  h1 {
+    margin-left: 30px;
+      margin-right: 30px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width: 320px;
+  }
+
+  .topnav-right {
+    top: 20px;
+    left: 350px;
+    right: 10px;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .topnav-right {
+    left: 190px;
+    
+  }
+
+  .topnav-right a {
+    padding-right: 5px;
+    text-align: right;
+    
+  }
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+  header { 
+    position: sticky;
+  } 
+
+  h1 {
+    margin-left: 0;
+    width: 610px; 
+      
+  }
+  
+  
+  .topnav-right {
+    left: -300px;
+    width: 640px;
+    top: 80px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+  }
+
+  .topnav-right a {
+    padding-right: 5px;
+    text-align: right;
+    padding: 20px 16px;
+    margin-top: 10px ;
+    margin-left: 70px;
+  }
+
+}
+
+
+
+
+/* Customed About Media Queries*/
+
+@media screen and (max-width: 980px) {
+
+  .boxed {
+    margin-left: 30px;
+    margin-right: 80px;
+    width: 600px;
+    padding-bottom: 1px;
+  }
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .boxed {
+    width: 700px;
+    margin-left: 20px;
+    
+  }
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+
+  .boxed {
+    width: 560px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    
+  }
+
+ .karlelisa {
+   float: none;
+   width: 500px;
+   height: 550px;
+   margin-top: 1px;
+   margin-bottom: 10px;
+   
+ }
+}
+
+
+
+/* Customed Portfolio Media Queries*/
+@media screen and (max-width: 980px) {
+
+  .kwport {
+    margin-left: 30px;
+    width: 600px;
+    padding-bottom: 2000px;
+    
+    
+  }
+
+  /*.tigergame, .abstract, .catwalk, .japan, .tropical, .puppy {
+width: 10px;
+height: 100px;
+margin-bottom: 100px;
+
+}*/
+
+/*h4 {
+width: 402px;
+bottom: -102px;
+padding: 5px;
+}*/
+
+  .tigergame {
+  
+   margin-bottom: 50px;
+   margin-right: 210px;
+ 
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+
+  .kwport {
+    width: 560px;
+    margin-top: 60px;
+    padding-bottom: 1000px;
+    margin-bottom: 1000px;
+    
+  }
+
+
+  .tigergame, .abstract, .catwalk, .japan, .tropical, .puppy {
+    
+     padding-left: 50px;
+    
+    }
+    
+    h4 {
+      left: 50px;
+      text-align: center;
+    }
+    
+}
+
+
+
+/* Customed Contact Media Queries*/
+
+@media screen and (max-width: 980px) {
+
+  .container {
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 600px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    margin-left: 30px;
+    width: 680px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+
+.container {
+  width: 580px;
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-bottom: 70px
+    
+}
+}
