@@ -248,7 +248,7 @@ header {
   /*Media Queries*/
 
 
-/*Standard Media Queries for About, Portfolio and Contact for the header*/
+/*Standard Media Queries for About, Portfolio and Contact for the header and navbar*/
 @media screen and (max-width: 980px) {
 
   h1 {
@@ -333,8 +333,6 @@ header {
 
 
 
-
-
 @media screen and (max-width: 768px) {
 
   .boxed {
@@ -375,42 +373,33 @@ header {
     margin-left: 30px;
     width: 600px;
     padding-bottom: 2000px;
-    
-    
   }
-
-  /*.tigergame, .abstract, .catwalk, .japan, .tropical, .puppy {
-width: 10px;
-height: 100px;
-margin-bottom: 100px;
-
-}*/
-
-/*h4 {
-width: 402px;
-bottom: -102px;
-padding: 5px;
-}*/
 
   .tigergame {
-  
    margin-bottom: 50px;
    margin-right: 210px;
- 
   }
 
-
-
-
 }
+
 
 
 @media screen and (max-width: 768px) {
 
+  .kwport {
+    padding-bottom: 500px;
+  }
+  
+  .tigergame, .abstract, .catwalk, .japan, .tropical, .puppy {
+    padding-left: 70px;
+  }
+   
+  h4 {
+     left: 70px;
+     text-align: center;
+  }
+   
 }
-
-
-
 
 
 
@@ -420,17 +409,12 @@ padding: 5px;
   .kwport {
     width: 560px;
     margin-top: 60px;
-    padding-bottom: 1000px;
-    margin-bottom: 1000px;
-    
   }
 
 
   .tigergame, .abstract, .catwalk, .japan, .tropical, .puppy {
-    
      padding-left: 50px;
-    
-    }
+  }
     
     h4 {
       left: 50px;
@@ -462,15 +446,12 @@ padding: 5px;
 }
 
 
-
-
 @media screen and (max-width: 640px) {
 
-.container {
-  width: 580px;
-  margin-top: 60px;
-  margin-left: 10px;
-  margin-bottom: 70px
-    
-}
+  .container {
+   width: 580px;
+   margin-top: 60px;
+   margin-left: 10px;
+   margin-bottom: 70px
+  }
 }
